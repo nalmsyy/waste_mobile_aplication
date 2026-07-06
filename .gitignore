@@ -1,0 +1,55 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate.cfg
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Visual Studio Code related
+.vscode/
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+lib/generated/
+
+# Android related
+**/android/local.properties
+**/android/key.properties
+**/android/app/shared_preferences.xml
+**/android/.gradle/
+**/android/app/build/
+**/android/app/src/main/res/values/strings.xml
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/EphemeralDirectory
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec

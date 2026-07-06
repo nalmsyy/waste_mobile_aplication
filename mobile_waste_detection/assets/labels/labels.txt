@@ -1,0 +1,5 @@
+kertas
+logam
+pakaian
+plastik
+tumbuhan

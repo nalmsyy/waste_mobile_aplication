@@ -1,0 +1,10 @@
+LETAKKAN MODEL DI SINI
+======================
+
+Jalankan script export terlebih dahulu:
+
+  python mobile_waste_detection/scripts/export_model.py
+
+Setelah berhasil, file berikut akan muncul di folder ini:
+  - yolo26m_waste.tflite   (prioritas utama)
+  - yolo26m_waste.onnx     (fallback)

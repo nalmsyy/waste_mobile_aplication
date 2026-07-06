@@ -1,0 +1,48 @@
+name: mobile_waste_detection
+description: "Aplikasi deteksi sampah realtime menggunakan YOLO26m (Eksperimen 4)."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera
+  camera: ^0.11.0
+
+  # Runtime permissions
+  permission_handler: ^11.3.0
+
+  # TFLite inference (primary)
+  tflite_flutter: ^0.10.4
+
+  # ONNX Runtime (fallback/secondary)
+  onnxruntime: ^1.19.0
+
+  # Image processing utilities
+  image: ^4.2.0
+
+  # File system paths
+  path_provider: ^2.1.2
+
+  # Collection utilities (NMS, sorted lists)
+  collection: ^1.18.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/labels/
